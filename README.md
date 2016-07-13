@@ -11,12 +11,12 @@ instruction：
 3. 将每个TreeNode加入list，然后构造TreeBuilder(List)
 4. 使用TreeBuilder.generateTree(); 建造多叉树。
 5. 函数使用说明：
-   1） addTreeNode(TreeNode treeNode) 向多叉树中添加节点。 TODO:存在疑问
-   2） insertTreeNode(TreeNode treeNode) 插入节点。 TODO:存在疑问
-   3） getTreeNodeById(TreeNode tree, int id) 工具函数：通过id查找给定树中的节点。
-   4） getTreeNodeById(int id) 查找本树中的节点。
-   5） toTree() / getRoot() 获取本树（返回根节点的引用）。
-   6） isValidTree() 判断本树是否为一个合法的树（是否已连接好或者已有根节点）。
+1） addTreeNode(TreeNode treeNode) 向多叉树中添加节点。 TODO:存在疑问
+2） insertTreeNode(TreeNode treeNode) 插入节点。 TODO:存在疑问
+3） getTreeNodeById(TreeNode tree, int id) 工具函数：通过id查找给定树中的节点。
+4） getTreeNodeById(int id) 查找本树中的节点。
+5） toTree() / getRoot() 获取本树（返回根节点的引用）。
+6） isValidTree() 判断本树是否为一个合法的树（是否已连接好或者已有根节点）。
 6. 如何遍历？
    1） 使用getTree().traverseDeepFirst() 层次遍历。 执行自定义操作目前只能自行更改for语句循环中的内容。TODO：新版本有待完善。
    2） 使用getTree().levelOrderTraversal() 深度优先遍历。 同上。
